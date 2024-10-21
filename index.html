@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajarKita</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Selamat Datang di Blog belajarKita</h1>
+    <p>Blog ini menyajikan pembelajaran seputar pemrograman web.</p>
+</header>
+
+<section class="featured">
+    <h2>HTML 5 dan Elemen Semantik</h2>
+    <p>Modul ini adalah bagian terakhir dari seri HTML yang mencakup elemen-elemen penting
+        dalam pengembangan web. Di sini, mahasiswa akan mendalami konsep HTML5 lebih jauh,
+        terutama terkait elemen semantik dan non-semantik, serta implementasi Form yang sangat
+        penting untuk berinteraksi dengan pengguna. Ini merupakan dasar yang akan mendukung
+        pemahaman lebih lanjut saat masuk ke pembelajaran CSS pada modul berikutnya. </p>
+    <p> Elemen semantik adalah elemen HTML5 yang memberi makna
+        secara eksplisit pada konten. Elemen ini menggantikan div generik, sehingga kode menjadi
+        lebih mudah dimengerti dan terstruktur baik oleh mesin pencari (SEO) maupun pengembang. </p>
+    <h4>Mengapa perlu menggunakan elemen semantik?</h4>
+    <ul>
+        <li><b>Meningkatkan SEO: </b>Mesin pencari lebih mudah memahami struktur halaman
+            sehingga bisa meningkatkan ranking.</li>
+        <li><b>Memudahkan Aksesibilitas: </b>Pembaca layar (screen reader) dapat lebih mudah
+            menjelaskan konten kepada pengguna yang memiliki keterbatasan penglihatan.</li>
+        <li><b>Membuat Kode Lebih Mudah Dipelihara: </b>Dengan elemen semantik, kode HTML
+            lebih terstruktur dan lebih mudah untuk dipahami oleh pengembang lain.</li>
+    </ul>
+    <h4>Elemen Semantik yang sering digunakan:</h4>
+    <ul>
+        <li><b>header: </b> Bagian atas halaman atau konten yang biasanya berisi logo,
+            judul, dan navigasi.</li>
+        <li><b>nav: </b>PBagian navigasi yang berisi tautan (link) ke bagian lain dari situs
+            web.</li>
+        <li><b>article: </b>Elemen ini berisi konten independen seperti artikel, berita,
+            atau postingan blog.</li>
+        <li><b>section: </b>Digunakan untuk membagi konten menjadi bagian yang lebih
+            besar.</li>
+        <li><b>aside: </b>DBagian ini berisi konten terkait seperti sidebar, informasi
+            tambahan, atau iklan.</li>
+        <li><b>footer: </b>Bagian paling bawah dari halaman yang sering berisi
+            informasi hak cipta, kontak, atau tautan tambahan.</li>
+    </ul>
+    <h3>HTML Aributes</h3>
+    <p>Berikut video tutorial yang dapat disimak seputar Atribut HTML</p>
+    <video controls width="600">
+        <source src="Belajar Web Dasar HTML.mp4" type="video/mp4">
+        Browser Anda tidak mendukung elemen video.
+    </video>
+
+    <h3>Semangat belajar!</h3>
+    <audio controls>
+        <source src="yang semangat dong.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+</section>
+
+<section class="form-section">
+    <h2>Menghubungi Blog Kami</h2>
+    <form>
+        <label for="name">Nama:</label><br>
+        <input type="text" id="name" name="name" placeholder="Masukkan nama Anda"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Masukkan email Anda"><br><br>
+
+        <label for="message">Pesan:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Pesan Anda..."></textarea><br><br>
+
+        <input type="submit" value="Kirim" class="submit-btn">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Blog belajarKita</p>
+</footer>
+
+</body>
+</html>
